@@ -1,0 +1,30 @@
+{
+  "name": "comp2537-w26-assignment1-veerpartap-kahlon",
+  "version": "1.0.0",
+  "description": "assignment 1 comp-2537",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Veer03/comp2537-w26-assignment1-Veerpartap-Kahlon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Veer03/comp2537-w26-assignment1-Veerpartap-Kahlon/issues"
+  },
+  "homepage": "https://github.com/Veer03/comp2537-w26-assignment1-Veerpartap-Kahlon#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "connect-mongo": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2",
+    "express-session": "^1.19.0",
+    "joi": "^18.1.2",
+    "mongodb": "^7.2.0"
+  }
+}
