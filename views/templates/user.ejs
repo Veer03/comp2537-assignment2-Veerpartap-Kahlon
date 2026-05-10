@@ -1,0 +1,19 @@
+<tr>
+  <td><%= user.name %></td>
+  <td><%= user.email %></td>
+  <td><%= user.user_type %></td>
+  <td>
+    <form action="/promoteUser" method="POST" style="display: inline">
+      <input type="hidden" name="email" value="<%= user.email %>" />
+      <button type="submit" class="btn btn-success btn-sm">
+        Promote to admin
+      </button>
+    </form>
+    <form action="/demoteUser" method="POST" style="display: inline">
+      <input type="hidden" name="email" value="<%= user.email %>" />
+      <button type="submit" class="btn btn-danger btn-sm">
+        Demote to User
+      </button>
+    </form>
+  </td>
+</tr>
